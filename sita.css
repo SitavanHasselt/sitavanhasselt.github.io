@@ -1,0 +1,39 @@
+#navbar {
+    max-height: 8vh;
+    min-height: 8vh;
+}
+
+#navbar_container {
+    text-align: center;
+}
+
+#navbar_container li {
+    text-transform: uppercase;
+}
+
+#home {
+    min-height: 92vh;
+}
+
+#video {
+    width: 100vw;
+    max-height: 40vh;
+}
+
+#bio {
+    min-height: 100vh;
+    padding-top: 8vh;
+}
+
+.content_block {
+    border: 2px solid black;
+}
+
+#bio p {
+    font-size:16px;
+    word-wrap:break-word;
+    margin:32px 0px;
+    padding:0px;
+    color:rgba(0,0,0,0.6);
+    font-family:Roboto,Helvetica,Arial,sans-serif;
+}
