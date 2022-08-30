@@ -29,11 +29,28 @@
     border: 2px solid black;
 }
 
+/* #contactform {
+    height: 300px
+} */
+
+/* importing fonts */
+
+
 #bio p {
     font-size:16px;
     word-wrap:break-word;
     margin:32px 0px;
     padding:0px;
     color:rgba(0,0,0,0.6);
-    font-family:Roboto,Helvetica,Arial,sans-serif;
+    font-family: Raleway, Helvetica,Arial,sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
