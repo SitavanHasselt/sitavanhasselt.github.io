@@ -20,35 +20,71 @@
     max-height: 40vh;
 }
 
+
+
+/* GENERAL CHANGES */
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+#titelbox {
+    padding-left: 33vw;
+    margin-bottom: 5vh;
+}
+
+
+
+/* CSS on BIO */
 #bio {
-    min-height: 100vh;
-    padding-top: 8vh;
+    margin-top: 5vh;
+    width: 66vw;
 }
 
-.content_block {
-    border: 2px solid black;
+#bio_image{
+    padding-right: 1.5vh;
+    padding-right: 1.5vh;
+    padding-top: 10vmax;
+    padding-bottom: 10%;
+    
 }
-
-/* #contactform {
-    height: 300px
-} */
-
-/* importing fonts */
-
 
 #bio p {
-    font-size:16px;
+    font-size:14px;
     word-wrap:break-word;
-    margin:32px 0px;
-    padding:0px;
+    margin-top:2.5vh 0px;
+    padding-left: 1.5vw;
     color:rgba(0,0,0,0.6);
     font-family: Raleway, Helvetica,Arial,sans-serif;
 }
 
 
+/* CSS on Projects */
+#projects{
+    margin-top: 5vh;
+
+}
+
+.projectsrow {
+    margin-bottom: 5vh;
+    vertical-align: middle;
+}
+
+#projects p {
+    text-align: center;
+}
 
 
+/* THE DOTS */
 
+.content_block {
+    border: 1px dashed black;
+}
+
+.centering{
+    margin: auto
+}
 
 
 

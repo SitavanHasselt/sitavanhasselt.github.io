@@ -1,0 +1,52 @@
+body {
+  background: rgb(247, 245, 245);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.center {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+#social-test {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#social-test li {
+    color: rgba(167, 129, 167, 0.6);
+    list-style-type: none;
+    display: inline;
+    line-height: 50px;
+    padding: 1%;
+    cursor: pointer;
+    /* margin-left: 20px; */
+    /* margin-bottom: 20px; */
+    transition: ease .3s;
+
+  }
+
+#social-test li:hover {
+    color: rgba(167, 146, 129, 1);
+  }
+
+#social-test .social {
+    padding-left: 0px;
+}
+
+#social-test .social .fa {
+    /* font-size: 10vw; */
+}
+
+.social:hover > li {
+  opacity: 0.5;
+}
+
+.social:hover > li:hover {
+  opacity: 1;
+}
