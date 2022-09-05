@@ -29,6 +29,11 @@ h1 {
     font-size: larger;
 }
 
+h2 {
+    text-align: center;
+    font-family: Raleway, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
 #titelbox {
     padding-left: 33vw;
     margin-bottom: 5vh;
@@ -40,15 +45,28 @@ h1 {
 #bio {
     margin-top: 5vh;
     width: 66vw;
+    height: max-content;
 }
 
-#bio_image{
-    padding-right: 1.5vh;
-    padding-right: 1.5vh;
-    padding-top: 10vmax;
-    padding-bottom: 10%;
-    
+#bio .table-container{
+    display: table;
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
+#bio .left-colum-bio{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+}
+
+#bio .bio-text{
+    display: table-cell;
+    position: relative;
+    text-align: right;
+}
+
 
 #bio p {
     font-size:14px;
@@ -73,6 +91,8 @@ h1 {
 
 #projects p {
     text-align: center;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
 
