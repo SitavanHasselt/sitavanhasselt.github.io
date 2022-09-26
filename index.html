@@ -34,14 +34,16 @@
 
 <body>
 	<!-- NAVBAR START -->
-		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-default">
 		  <div class="container" id="navbar_container">
-				<!-- <a class="navbar-brand">Some Title</a> -->
+				<a class="navbar-brand"> Sita van Hasselt</a>
+
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			  		<span class="navbar-toggler-icon"></span>
 				</button>
+
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			  		<ul class="navbar-nav me-auto mb-2 mb-s-0">
+			  		<ul class="navbar-nav ms-auto mb-2 mb-s-0">
 				    	<li class="nav-item">
 				      		<a class="nav-link active" aria-current="page" href="#home">Home</a>
 					    </li>
@@ -60,15 +62,34 @@
 		</nav>
 	<!-- NAVBAR END -->
 
+	
 
 
+	<div id="container-body" class="container centering">
 
-	<div class="container">
 
 		<!-- HOME PAGE -->
-		<div id="home" class="row content_block">
-			<iframe src="https://player.vimeo.com/video/738769900?h=ab566852f8" id="video" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+		<div id="home" class="row content_block centering">
+
+			<div class="container">
+			
+				
+				<div id="showreel" class="row content_block centering">
+					<h1> SHOWREEL 2022</h1>
+					<h5> click here to watch</h5>
+				</div>
+
+				<div id="scroll-down" class="row content_block centering">
+					<a href="#bio"><span></span> scroll down</a>
+				</div>
+
+
+
+			</div>
+
 		</div>
+
+
 
 		<!-- BIO SECTION -->
 		<div id="bio" class="row centering content_block">
@@ -148,18 +169,22 @@
 						<img src="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdWRzfGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
 					</div>
 					<div class="col-8">
-						<h2>Latest project working title</h2>
+						<h2>Table for four</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus vel odio sit amet tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor ipsum vel elit dictum, eu accumsan lacus tincidunt. Morbi erat libero, finibus at tincidunt sed, dignissim eget metus. Fusce porttitor dignissim suscipit. Sed dui massa, feugiat euismod sapien eget, efficitur rutrum lorem. 
 						</p>
 					</div>
 				</div>
 
-				<!-- second project -->
+				<!-- La Subversiva project -->
 				<div class="row projects-row d-flex align-items-center content_block">
-					<div class="col-8">
-						<h2>Table for four</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus vel odio sit amet tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor ipsum vel elit dictum, eu accumsan lacus tincidunt. Morbi erat libero, finibus at tincidunt sed, dignissim eget metus. Fusce porttitor dignissim suscipit. Sed dui massa, feugiat euismod sapien eget, efficitur rutrum lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus vel odio sit amet tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor ipsum vel elit dictum, eu accumsan lacus tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus vel odio sit amet tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor ipsum vel elit dictum, eu accumsan lacus tincidunt.
+					<div class="col-8 text-center">
+						<h2>La Subversiva</h2>
+						<p> 
+							[In Production] Undermining big, capitalist beer brands La Subversiva is Barcelona's joint force artisinal brewery. Sticking to their true anarchist background their mission is to turn everybody's favourite social drink into a truly, social drink. 
 						</p>
+						<button type="button" class="btn btn-sm btn-outline-info" data-mdb-ripple-color="dark" data-bs-toggle="modal" data-bs-target="#origoModal">
+							+ watch here
+						</button>
 					</div>
 					<div class="col-4">
 						<img src="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdWRzfGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
@@ -200,8 +225,9 @@
 
 					<div class="col-8 text-center">
 						<h2>Bicibús: Pedals Endavant </h2>
+						<h5>co-directing | videography</h5>
 						<p>
-							Bicibús is a social documentary made with OTOXO Productions for BeTeVe. Follow a group of parents and volunteers in the neighborhood Eixample as they set out to reclaim the streets from traffic heavy and watch how Barcelona cracks a smile as the joyful bicibús passes by.
+							Bicibús is a social documentary produced by OTOXO Productions. It follows a group of parents and volunteers in the neighborhood Eixample as they set out to reclaim the streets from traffic heavy and watch how Barcelona cracks a smile as the joyful bicibús passes by.
 						</p>
 
 						<button type="button" class="btn btn-sm btn-outline-info" data-mdb-ripple-color="dark" data-bs-toggle="modal" data-bs-target="#bicibusModal">
@@ -222,14 +248,51 @@
 									<div class="modal-body">
 										<div class="conainer-fluid">
 											<div class="row">
-												<img src="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdWRzfGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
+												<div class="ratio ratio-16x9">
+													<!-- <iframe
+													  src="/Users/sitavanhasselt/Documents/GitHub/Website /portfolio_website/Media/2022 04_Origo Bakery_Anniversary event.mp4"
+													  title="YouTube video"
+													  allowfullscreen
+													></iframe> -->
+												</div>
 											</div>
+	
+											<div class="row modal-text">
+												<div class="col-6">
+													<p> 
+														OTOXO Productions' 2022 documentary, 'Bicibús'. The film follows a group of Barcelona parents and children who have joined together  to create a stronger community and safer bicycling conditions for the city - starting a local bicibus. The parade of cycling families take the streets every Friday morning, creating a joyful and eco-friendly route to Barcelona elementary schools.
+													</p>
+												</div>
+	
+												<div class="col-6">
+													<p> 
+														Co-directed with: 
+														John English,
+														Tom Garner,
+														Rosie Williams,
+														Jenny Dinwoodie,
+														Esme Warren,
+														Caitlin Long,
+														Andy Perez,
+														Clara Cabajo,
+														Katja Kuivanen,
+														Oliver Gibel,
+														Mattia Bullo,
+														Sofia Luz,
+														Alejandra Angulo Alonso,
+														Anya Field,
+														Andra Ion
+														& Sita van Hasselt
+													</p>
 
-											<div class="row">
-												<p> Morbi erat libero, finibus at tincidunt sed, dignissim eget metus. Fusce porttitor dignissim suscipit. Sed dui massa, feugiat euismod sapien eget, efficitur rutrum lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus vel odio sit amet tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor ipsum vel elit dictum, eu accumsan lacus tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus vel odio sit amet tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor ipsum vel elit dictum, eu accumsan lacus tincidunt.
-												</p>
+													<p>
+														Produced by: OTOXO Productions
+													</p>
+												</div>
+	
 											</div>
 										</div>
+										
 									</div>
 								</div>
 								</div>
@@ -244,6 +307,7 @@
 				<div class="row projects-row d-flex align-items-center content_block">
 					<div class="col-8 text-center">
 						<h2>Orígo</h2>
+						<h5> videography </h5>
 						<p>
 							Celebrating the fourth anniversary of Gracia’s artisinal sour-dough bakery Orígo.
 						</p>
@@ -278,13 +342,15 @@
 										<div class="row modal-text">
 											<div class="col-6">
 												<p> 
-													Morbi erat libero, finibus at tincidunt sed, dignissim eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor ipsum vel elit dictum, eu accumsan lacus tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus vel odio sit amet tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+													This video was created for Orgio bakery a local bakery in Barcelona's neighboorhood Gracia. For it's fourth anniversary Origo opened its doors to the neighboorhoud and hosted a small celebratory party. 
 												</p>
 											</div>
 
 											<div class="col-6">
 												<p> 
-													With bla bla bla. Here link the socials/websites of Clara, Katja and Andy.
+													Co-directors: Klara Kuivanen and Clara Carbajo <br>
+													Videography: Sita van Hasselt <br>
+													Editing: Andy Perez
 												</p>
 											</div>
 
@@ -312,7 +378,7 @@
 					<div class="col-8 text-center">
 						<h2>Open-call Bicibús </h2>
 						<p>
-							Promotional video made to increase enthusiasm for the Bicibús documentary.
+							This video was made during the production of the documentary Bicibús for its communnity.
 						</p>
 
 						<button type="button" class="btn btn-sm btn-outline-info" data-mdb-ripple-color="dark" data-bs-toggle="modal" data-bs-target="#ocbicibusModal">
@@ -327,6 +393,7 @@
 									<h5 class="modal-title" id="exampleModalLabel">
 										Open-call Bicibús
 									</h5>
+							
 									<button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
 								</div>
 
@@ -345,16 +412,14 @@
 										<div class="row modal-text">
 											<div class="col-6">
 												<p> 
-													Information about the video. Morbi erat libero, finibus at tincidunt sed, dignissim eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor ipsum vel elit dictum, eu accumsan lacus tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus vel odio sit amet tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+													Collaborating with the large bicibus communnity we made this video to increase awareness of our project and to make parents and their kids excited to be involved in the film.
+													With a wink to MTV's pimp my wheels this shoot centers around the fun relation between kids and there bikes. 
 												</p>
 											</div>
 
 											<div class="col-6">
 												<p>
-													Edited by: Katja Kuivanen and Sita van Hasselt.
-												</p>
-												<p> 
-													Shot by: Jenny Dinwoodie, Alehandra Allonso, Katja Kuivanen and Sita van Hasselt.
+													Co-directors: Katja Kuivanen and Sita van Hasselt
 												</p>
 											</div>
 
@@ -428,49 +493,6 @@
 	<!-- Footer -->
 	<footer class="bg-dark text-center text-white">
 		<div class="container">
-	
-			<!-- Text -->
-			<div class="mb-4">
-				<p>
-				Sita van Hasselt Portfolio
-				</p>
-			</div>
-			<!-- End: Text -->
-
-			<!-- Social Media -->
-			<div class="mb-4">
-				<!-- Facebook -->
-				<a class="btn btn-outline-light btn-floating" href="#!" role="button"
-				><i class="fa fa-facebook"></i
-				></a>
-		
-				<!-- Twitter -->
-				<a class="btn btn-outline-light btn-floating" href="#!" role="button"
-				><i class="fa fa-twitter"></i
-				></a>
-		
-				<!-- Google -->
-				<a class="btn btn-outline-light btn-floating" href="#!" role="button"
-				><i class="fa fa-google"></i
-				></a>
-		
-				<!-- Instagram -->
-				<a class="btn btn-outline-light btn-floating" href="#!" role="button"
-				><i class="fa fa-instagram"></i
-				></a>
-		
-				<!-- Linkedin -->
-				<a class="btn btn-outline-light btn-floating" href="#!" role="button"
-				><i class="fa fa-linkedin"></i
-				></a>
-		
-				<!-- Github -->
-				<a class="btn btn-floating" href="#!" role="button"
-				><i class="fa fa-github"></i
-				></a>
-				</div>
-			<!-- End: Social media -->
-
 	
 			<!-- Copyright -->
 			<div class="text-center" style="background-color: rgba(0, 0, 0, 0.2); font-size: xx-small">

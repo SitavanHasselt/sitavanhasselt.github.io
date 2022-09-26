@@ -1,8 +1,4 @@
-#navbar {
-    max-height: 8vh;
-    min-height: 8vh;
-}
-
+/* NAV BAR */
 #navbar_container {
     text-align: center;
 }
@@ -11,10 +7,79 @@
     text-transform: uppercase;
 }
 
-#home {
-    min-height: 92vh;
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+    max-height: 8vh;
+    min-height: 8vh;
+    border-bottom: 1px solid #000;
+  }
+
+  .navbar-default.scrolled{
+    background:#e6bc05;
+    max-height: 5vh;
+    min-height: 5vh;
+  }
+
+/* general */
+#container-body{
+    margin: auto;
+    border: 2px dashed rgb(23, 171, 67);
 }
 
+  /* Home PAGE  */
+#home {
+    height: 100vh;
+    width: 100%;
+}
+
+
+#showreel{
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    bottom: 25%;
+    left: 25%;
+    background-color: aquamarine;
+}
+
+#scroll-down{
+    position:absolute;
+    bottom: 0%;
+    left: 45%;
+    width:max-content;
+    height: max-content;
+}
+
+#scroll-down a{
+    color: transparent; 
+    font-size: x-small;
+    font-style: normal;
+    padding-top: 28px;
+
+}
+
+#scroll-down a:hover{
+    opacity: 0.5;
+}
+
+#scroll-down a span{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px; 
+    border-left: 1px solid rgb(115, 17, 17);
+    border-bottom: 1px solid rgb(52, 17, 17);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+
+  
+  
 #video {
     width: 100vw;
     max-height: 40vh;
@@ -39,6 +104,11 @@ h2 {
     margin-bottom: 5vh;
 }
 
+
+h5{
+    text-align: center;
+    font-size: smaller;
+}
 
 
 /* CSS on BIO */
@@ -92,6 +162,17 @@ h2 {
     text-align: center;
     font-size: small;
 }
+
+
+/* CSS on Contact */
+#contact {
+    margin-top: 5vh;
+    width: 66vw;
+    height: max-content;
+    margin-bottom: 5vh;
+}
+
+
 
 
 /* THE DOTS */
