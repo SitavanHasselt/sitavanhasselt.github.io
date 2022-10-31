@@ -12,7 +12,8 @@
     background:transparent;
     max-height: 8vh;
     min-height: 8vh;
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
+    color:rgb(23, 171, 67);
   }
 
   .navbar-default.scrolled{
@@ -28,11 +29,11 @@
 }
 
   /* Home PAGE  */
-#home {
-    height: 100vh;
-    width: 100%;
-}
 
+#homepage_background{
+    margin-left: 0px;
+    padding: 0px;
+}
 
 #showreel{
     position: absolute;
@@ -77,15 +78,6 @@
     box-sizing: border-box;
 }
 
-
-  
-#video {
-    width: 100vw;
-    max-height: 40vh;
-}
-
-
-
 /* GENERAL CHANGES */
 h1 {
     text-align: center;
@@ -103,7 +95,6 @@ h2 {
     margin-bottom: 5vh;
 }
 
-
 h5{
     text-align: center;
     font-size: smaller;
@@ -118,9 +109,14 @@ h6{
     font-style: italic;
 }
 
+#modal-header{
+    padding: 0px; 
+    margin: 0px;
+}
+
 /* CSS on BIO */
 #bio {
-    margin-top: 5vh;
+    padding-top: 5vh;
     width: 66vw;
     height: max-content;
 }
@@ -156,8 +152,7 @@ h6{
 
 /* CSS on Projects */
 #projects{
-    margin-top: 5vh;
-
+    padding-top: 5vh;
 }
 
 .projectsrow {
@@ -170,20 +165,22 @@ h6{
     font-size: small;
 }
 
+#modal-text p{
+    text-align: start;
+    font-size: small;
+}
 
 /* CSS on Contact */
 #contact {
     margin-top: 5vh;
+    padding-top: 5vh;
     width: 66vw;
     height: max-content;
     margin-bottom: 5vh;
 }
 
 
-
-
 /* THE DOTS */
-
 .content_block {
     border: 1px dashed black;
 }
