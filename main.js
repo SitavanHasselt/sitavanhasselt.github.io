@@ -19,5 +19,6 @@ $(function() {
        $('html, body').animate({
          scrollTop: jumpPos
        }, 1000);
-   }, 14000);
+   }, 15000);
  });
+ 
