@@ -1,23 +1,27 @@
 /* NAV BAR */
 #navbar_container {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
 }
 
 #navbar_container li {
     text-transform: uppercase;
-}
+    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}   
 
+#navbar_container li:hover{
+    opacity: 50%;
+}
 .navbar-default{
     transition:500ms ease;
     background:transparent;
     max-height: 8vh;
     min-height: 8vh;
     /* border-bottom: 1px solid #000; */
-    color:rgb(23, 171, 67);
   }
 
   .navbar-default.scrolled{
-    background:#e6bc05;
+    background:#171716;
     max-height: 5vh;
     min-height: 5vh;
   }
@@ -56,6 +60,7 @@
     font-size: x-small;
     font-style: normal;
     padding-top: 28px;
+    
 }
 
 #scroll-down a:hover{
@@ -69,8 +74,8 @@
     width: 24px;
     height: 24px;
     margin-left: -12px; 
-    border-left: 1px solid rgb(115, 17, 17);
-    border-bottom: 1px solid rgb(52, 17, 17);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
