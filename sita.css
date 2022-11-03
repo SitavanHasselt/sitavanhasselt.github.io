@@ -38,13 +38,23 @@
     padding: 0px;
 }
 
-#showreel{
+#homepage_text{
     position: absolute;
     width: 50%;
     height: 25%;
-    bottom: 25%;
+    bottom: 8%;
     left: 25%;
-    background-color: aquamarine;
+    background-color: transparent;
+    border: 1px dashed white;
+}
+
+#homepage_text p{
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    margin-top: 5vh;
+    font-size: x-small;
+    
 }
 
 #scroll-down{
@@ -94,6 +104,13 @@ h2 {
     text-align: center;
     font-family: Raleway, 'Times New Roman', Times, serif;
     font-size: medium;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: small;
 }
 
 #titelbox {
@@ -205,7 +222,7 @@ h6{
 
 /* THE DOTS */
 .content_block {
-    border: 0px dashed black;
+    border: 1px dashed black;
 }
 
 .centering{
