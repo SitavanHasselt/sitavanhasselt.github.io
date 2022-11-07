@@ -45,7 +45,7 @@
     bottom: 8%;
     left: 25%;
     background-color: transparent;
-    border: 1px dashed white;
+    /* border: 1px dashed white; */
 }
 
 #homepage_text p{
@@ -60,7 +60,7 @@
 #scroll-down{
     position:absolute;
     bottom: 0%;
-    left: 45%;
+    left: 46%;
     width:max-content;
     height: max-content;
 }
@@ -70,7 +70,6 @@
     font-size: x-small;
     font-style: normal;
     padding-top: 28px;
-    
 }
 
 #scroll-down a:hover{
@@ -222,7 +221,7 @@ h6{
 
 /* THE DOTS */
 .content_block {
-    border: 1px dashed black;
+     border: 0px dashed black;
 }
 
 .centering{
