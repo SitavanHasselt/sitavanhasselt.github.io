@@ -42,7 +42,7 @@
     position: absolute;
     width: 50%;
     height: 25%;
-    bottom: 8%;
+    bottom: 12%;
     left: 25%;
     background-color: transparent;
     /* border: 1px dashed white; */
@@ -53,23 +53,38 @@
     padding-bottom: 0;
     margin-bottom: 0px;
     margin-top: 5vh;
-    font-size: x-small;
-    
+    font-size: x-small;   
+}
+
+#homepage_text h1{
+    font-size: xx-large;
+}
+
+#hompage_text h2{
+    font-size: larger;
 }
 
 #scroll-down{
     position:absolute;
-    bottom: 0%;
-    left: 46%;
-    width:max-content;
+    bottom: 1%;
+    left: 40vw;
+    width:20vw;
     height: max-content;
 }
 
+#scroll-down p{
+    font-size: xx-small;
+    font-style: italic ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+}
 #scroll-down a{
     color: transparent; 
     font-size: x-small;
     font-style: normal;
-    padding-top: 28px;
+    padding-top: 0px;
 }
 
 #scroll-down a:hover{
@@ -78,13 +93,13 @@
 
 #scroll-down a span{
     position: absolute;
-    top: 0%;
+    bottom: 5%;
     left: 50%;
     width: 24px;
     height: 24px;
-    margin-left: -12px; 
-    border-left: 1px solid rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-left: -12px;  
+    border-left: 1px solid rgb(252, 252, 252);
+    border-bottom: 1px solid rgb(244, 242, 242);
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
@@ -221,7 +236,7 @@ h6{
 
 /* THE DOTS */
 .content_block {
-     border: 0px dashed black;
+     border: 0px dashed rgb(130, 16, 16);
 }
 
 .centering{
