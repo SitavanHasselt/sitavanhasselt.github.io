@@ -1,12 +1,14 @@
 /* NAV BAR */
 #navbar_container {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    font-family: 'Crimson Text', 'Times New Roman', Times, serif, Tahoma, sans-serif;
+    color: #FFFCF8;
 }
 
 #navbar_container li {
     text-transform: uppercase;
-    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    font-family: 'Crimson Text', 'Times', Times, serif, Tahoma, sans-serif;
+    color: #FFFCF8;
 }   
 
 #navbar_container li:hover{
@@ -21,7 +23,7 @@
   }
 
   .navbar-default.scrolled{
-    background:#171716;
+    background: #121715 ;
     max-height: 5vh;
     min-height: 5vh;
   }
@@ -32,11 +34,18 @@
     border: 0px dashed rgb(23, 171, 67);
 }
 
-  /* Home PAGE  */
-#homepage_background{
+html body {
+    background-color: #FFFCF8 ;  
+}
+
+/* Adding fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300;400&family=Crimson+Text:wght@400;600&family=Quicksand:wght@300;400;500&display=swap');
+
+ #homepage_background{
     margin-left: 0px;
     padding: 0px;
 }
+
 
 #homepage_text{
     position: absolute;
@@ -45,6 +54,7 @@
     bottom: 12%;
     left: 25%;
     background-color: transparent;
+    color: #FFFCF8;;
     /* border: 1px dashed white; */
 }
 
@@ -58,10 +68,12 @@
 
 #homepage_text h1{
     font-size: x-large;
+    color: #FFFCF8;
 }
 
 #hompage_text h2{
     font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #scroll-down{
@@ -76,10 +88,11 @@
     font-size: xx-small;
     font-style: italic ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: antiquewhite;
+    color: #FFFCF8;
     padding-bottom: 0px;
     margin-bottom: 1px;
 }
+
 #scroll-down a{
     color: transparent; 
     font-size: x-small;
@@ -98,8 +111,8 @@
     width: 24px;
     height: 24px;
     margin-left: -12px;  
-    border-left: 1px solid rgb(252, 252, 252);
-    border-bottom: 1px solid rgb(244, 242, 242);
+    border-left: 1px solid #FFFCF8;
+    border-bottom: 1px solid #FFFCF8;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
@@ -108,7 +121,7 @@
 /* GENERAL CHANGES */
 h1 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    font-family: 'Libre Baskerville', 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
     font-size: larger;
     margin-bottom: 1vh;
     padding-top: 1vh;
@@ -116,7 +129,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: Raleway, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', 'Times New Roman', Times, serif;
     font-size: medium;
 }
 
@@ -151,11 +164,21 @@ h6{
     margin: 0px;
 }
 
-/* CSS on BIO */
+/* BIO */
 #bio {
     padding-top: 5vh;
     width: 66vw;
-    height: max-content;
+    height: 100vh;
+}
+
+#background_bio {
+    width: 100vw;
+    height: 102%;
+    background-color: #121715;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    margin-top: -7vh;
 }
 
 #bio .table-container{
@@ -171,20 +194,48 @@ h6{
     position: relative;
 }
 
-#bio .bio-text{
-    display: table-cell;
-    position: relative;
-    text-align: right;
+#bio h1{
+    color: #FFFCF8;
+    font-family: 'Crimson Text', 'Times New Roman', serif;
 }
-
 
 #bio p {
     font-size:14px;
     word-wrap:break-word;
     margin-top:2.5vh 0px;
     padding-left: 1.5vw;
-    color:rgba(0,0,0,0.6);
+    color: #FFFCF8;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
 }
+
+#bio-social-buttons {
+  color: #D95830;
+  text-align: center;
+  font-size: large;
+  opacity: 100%;
+}
+
+#bio-social-buttons .fa-twitter {
+  padding-left: 80%;
+}
+
+#bio-social-buttons .fa-vimeo {
+  padding-right: 80%;
+}
+
+#bio-social-buttons i:hover{
+  color: #C2FFED
+}
+ 
+#bio .btn{
+    background-color: #D95830;
+    color: #121715;
+    border: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
 
 
 /* CSS on Projects */
@@ -194,17 +245,44 @@ h6{
 
 .projectsrow {
     margin-bottom: 5vh;
+    margin-top: 5vh;
     vertical-align: middle;
 }
 
 #projects p {
     text-align: center;
     font-size: small;
+    color: #121715;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+#projects h1{
+    color: #121715;
+    font-family: 'Crimson Text', serif;
+}
+
+#projects h2{
+    color: #121715; 
+    font-family: 'Crimson Text', serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#projects h5{
+    color: #121715; 
+    font-family: 'Quicksand', serif;
+    font-weight: 200;
+}
+
+#projects .btn {
+    font-family: 'Quicksand', sans-serif;
 }
 
 #modal-text p{
     text-align: start;
     font-size: small;
+    color: #121715;
 }
 
 /* CSS on Contact */
@@ -212,27 +290,53 @@ h6{
     padding-top: 5vh;
     width: 66vw;
     height: max-content;
-    margin-bottom: 5vh;
+    margin-bottom: 0vh;
 }
 
-/* #contact p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
+#contact h1{
+    color: #FFFCF8;
+    margin-top: 0%;
+    font-family: 'Crimson Text', sans-serif;
+    text-transform: uppercase;
+}
+
+#contact p{
+    color: #FFFCF8;
+    font-family: 'Quicksand', serif;
+}
+
+#contact h5{
+    color: #FFFCF8;
+}
+
+#background_contact {
+    width: 100vw;
+    height: 65%;
+    background-color: #121715;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    margin-top: -2vh;
+}
+
+#contact .btn{
+    background-color: #D95830;
+    color: #121715;
+    border: 0px; 
+}
 
 
 .form-control{
     font-size: small;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    background-color: #FFFCF8;
+    font-family: 'Quicksand', serif;
 }
 
 #contact label{
     margin-bottom: 0px;
 }
 
-/* FOOTER */
-#footer {
-    background-color: white;
-}
+
 
 /* THE DOTS */
 .content_block {

@@ -21,4 +21,9 @@ $(function() {
        }, 1000);
    }, 15000);
  });
+
+//  setting background bio heigth
+//  document.getElementById("background_ bio").style.height = document.getElementById("bio").clientHeight;
+
+
  
