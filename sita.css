@@ -121,7 +121,7 @@ html body {
 h1 {
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: x-large;
+    font-size: large;
     margin-bottom: 1vh;
     padding-top: 1vh;
 }
@@ -303,6 +303,9 @@ h6{
 #contact p{
     color: #FFFCF8;
     font-family: 'Catamaran', serif;
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 0px;
 }
 
 #contact h5{
@@ -311,7 +314,7 @@ h6{
 
 #background_contact {
     width: 100vw;
-    height: 67%;
+    height: 60%;
     background-color: #121715;
     z-index: -1;
     position: absolute;
