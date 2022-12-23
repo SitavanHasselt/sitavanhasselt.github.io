@@ -242,7 +242,7 @@ h6{
     padding-top: 5vh;
 }
 
-.projectsrow {
+#projects .row {
     margin-bottom: 5vh;
     margin-top: 5vh;
     vertical-align: middle;
@@ -258,6 +258,7 @@ h6{
 
 #projects h1{
     color: #121715;
+    margin-top: 0px;
 }
 
 #projects h2{
@@ -287,10 +288,9 @@ h6{
 
 /* CSS on Contact */
 #contact {
-    padding-top: 5vh;
+    padding-top: 0px;
     width: 66vw;
-    height: max-content;
-    margin-bottom: 0vh;
+    margin-bottom: 0px;
 }
 
 #contact h1{
@@ -311,12 +311,12 @@ h6{
 
 #background_contact {
     width: 100vw;
-    height: 65%;
+    height: 67%;
     background-color: #121715;
     z-index: -1;
     position: absolute;
     left: 0px;
-    margin-top: -2vh;
+    margin-top: 0px;
 }
 
 #contact .btn{
@@ -330,6 +330,7 @@ h6{
     font-size: small;
     background-color: #FFFCF8;
     font-family: 'Catamaran', serif;
+    font-size: normal;
 }
 
 #contact label{
