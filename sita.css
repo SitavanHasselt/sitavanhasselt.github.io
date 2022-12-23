@@ -1,13 +1,13 @@
 /* NAV BAR */
 #navbar_container {
     text-align: center;
-    font-family: 'Crimson Text', 'Times New Roman', Times, serif, Tahoma, sans-serif;
+    font-family: 'Lora', serif;
     color: #FFFCF8;
 }
 
 #navbar_container li {
     text-transform: uppercase;
-    font-family: 'Crimson Text', 'Times', Times, serif, Tahoma, sans-serif;
+    font-family: 'Lora', serif;
     color: #FFFCF8;
 }   
 
@@ -38,8 +38,7 @@ html body {
     background-color: #FFFCF8 ;  
 }
 
-/* Adding fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300;400&family=Crimson+Text:wght@400;600&family=Quicksand:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@298;400&family=Content:wght@700&family=Lora:wght@400;500&display=swap'); 
 
  #homepage_background{
     margin-left: 0px;
@@ -121,16 +120,16 @@ html body {
 /* GENERAL CHANGES */
 h1 {
     text-align: center;
-    font-family: 'Libre Baskerville', 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
-    font-size: larger;
+    font-family: 'Lora', serif;
+    font-size: x-large;
     margin-bottom: 1vh;
     padding-top: 1vh;
 }
 
 h2 {
     text-align: center;
-    font-family: 'Raleway', 'Times New Roman', Times, serif;
-    font-size: medium;
+    font-family: 'Catamaran', sans-serif;
+    font-size: large;
 }
 
 h3 {
@@ -147,7 +146,7 @@ h3 {
 
 h5{
     text-align: center;
-    font-size: smaller;
+    font-size: small;
 }
 
 h6{
@@ -196,16 +195,16 @@ h6{
 
 #bio h1{
     color: #FFFCF8;
-    font-family: 'Crimson Text', 'Times New Roman', serif;
+    font-family: 'Lora', serif;
 }
 
 #bio p {
-    font-size:14px;
+    font-size: normal;
     word-wrap:break-word;
     margin-top:2.5vh 0px;
     padding-left: 1.5vw;
     color: #FFFCF8;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-weight: 400;
 }
 
@@ -232,7 +231,7 @@ h6{
     background-color: #D95830;
     color: #121715;
     border: 0px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 
 
@@ -251,32 +250,33 @@ h6{
 
 #projects p {
     text-align: center;
-    font-size: small;
+    font-size: normal;
     color: #121715;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     font-weight: 400;
 }
 
 #projects h1{
     color: #121715;
-    font-family: 'Crimson Text', serif;
 }
 
 #projects h2{
     color: #121715; 
-    font-family: 'Crimson Text', serif;
+    font-family: 'Catamaran', sans-serif;
     font-weight: 200;
-    text-transform: uppercase;
+    font-size: large;
 }
 
 #projects h5{
     color: #121715; 
-    font-family: 'Quicksand', serif;
-    font-weight: 200;
+    font-family: 'Catamaran', serif;
+    font-weight: 400;
 }
 
 #projects .btn {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    text-transform: uppercase;
+    background-color: #D95830;
 }
 
 #modal-text p{
@@ -296,13 +296,13 @@ h6{
 #contact h1{
     color: #FFFCF8;
     margin-top: 0%;
-    font-family: 'Crimson Text', sans-serif;
+    font-family: 'Lora', sans-serif;
     text-transform: uppercase;
 }
 
 #contact p{
     color: #FFFCF8;
-    font-family: 'Quicksand', serif;
+    font-family: 'Catamaran', serif;
 }
 
 #contact h5{
@@ -329,7 +329,7 @@ h6{
 .form-control{
     font-size: small;
     background-color: #FFFCF8;
-    font-family: 'Quicksand', serif;
+    font-family: 'Catamaran', serif;
 }
 
 #contact label{
