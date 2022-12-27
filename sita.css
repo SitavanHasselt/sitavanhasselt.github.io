@@ -22,7 +22,7 @@ h2 {
 
 
 h5{
-    text-align: center;
+    text-align: left;
     font-size: smaller;
     font-family: 'Lora', serif;
     font-weight: 400;
@@ -197,15 +197,12 @@ h5{
 }
 
 /* MODALS */
-#modal-header{
-    padding: 0px; 
+.modal-header{
     margin: 0px;
 }
 
-#modal .row{
-    margin-top: auto;
-    margin-bottom: auto;
-
+.modal-body{
+    background-color: #FFFCF8;
 }
 
 /* CONTACT */
