@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@298;400&family=Content:wght@700&family=Lora:wght@400;500&display=swap'); 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
+
+
+
 /* NAV BAR */
 #navbar_container {
     text-align: center;
@@ -38,7 +43,8 @@ html body {
     background-color: #FFFCF8 ;  
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@298;400&family=Content:wght@700&family=Lora:wght@400;500&display=swap'); 
+
+
 
  #homepage_background{
     margin-left: 0px;
@@ -195,16 +201,16 @@ h6{
 
 #bio h1{
     color: #FFFCF8;
-    font-family: 'Lora', serif;
+    font-family: 'Catamaran', serif;
 }
 
 #bio p {
-    font-size: normal;
+    font-size: small;
     word-wrap:break-word;
     margin-top:2.5vh 0px;
     padding-left: 1.5vw;
     color: #FFFCF8;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-weight: 400;
 }
 
@@ -243,22 +249,23 @@ h6{
 }
 
 #projects .row {
-    margin-bottom: 5vh;
-    margin-top: 5vh;
+    margin-bottom: 15vh;
+    margin-top: 15vh;
     vertical-align: middle;
 }
 
 #projects p {
-    text-align: center;
-    font-size: normal;
+    text-align: left ;
+    font-size: small;
     color: #121715;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-weight: 400;
 }
 
 #projects h1{
     color: #121715;
     margin-top: 0px;
+    font-family: 'Catamaran', sans-serif;
 }
 
 #projects h2{
@@ -270,14 +277,17 @@ h6{
 
 #projects h5{
     color: #121715; 
-    font-family: 'Catamaran', serif;
+    font-family: 'Lora', serif;
     font-weight: 400;
+    font-size: smaller;
+    text-align: left;
 }
 
 #projects .btn {
     font-family: 'Catamaran', sans-serif;
     text-transform: uppercase;
     background-color: #D95830;
+    align: center;
 }
 
 #modal-text p{
@@ -291,18 +301,19 @@ h6{
     padding-top: 0px;
     width: 66vw;
     margin-bottom: 0px;
+    background-color: #121715;
 }
 
 #contact h1{
     color: #FFFCF8;
     margin-top: 0%;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Catamaran', sans-serif;
     text-transform: uppercase;
 }
 
 #contact p{
     color: #FFFCF8;
-    font-family: 'Catamaran', serif;
+    font-family: 'Lora', serif;
     font-size: small;
     font-style: italic;
     margin-bottom: 0px;
@@ -310,16 +321,6 @@ h6{
 
 #contact h5{
     color: #FFFCF8;
-}
-
-#background_contact {
-    width: 100vw;
-    height: 60%;
-    background-color: #121715;
-    z-index: -1;
-    position: absolute;
-    left: 0px;
-    margin-top: 0px;
 }
 
 #contact .btn{
@@ -344,7 +345,7 @@ h6{
 
 /* THE DOTS */
 .content_block {
-     border: 0px dashed rgb(130, 16, 16);
+     border: 1px dashed rgb(130, 16, 16);
 }
 
 .centering{
