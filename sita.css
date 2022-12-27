@@ -1,9 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@298;400&family=Content:wght@700&family=Lora:wght@400;500&display=swap'); 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
+
+html body {
+     background-color: #FFFCF8 ;  
+     margin: auto
+}
+
+/* GENERAL CHANGES */
+h1 {
+    text-align: center;
+    font-family: 'Catamaran', serif;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: large;
+    font-weight: 200;
+}
 
 
+h5{
+    text-align: center;
+    font-size: smaller;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
 
-/* NAV BAR */
+ p {
+    text-align: left;
+    font-family: 'Lora', serif;
+    font-size: small;
+ }
+
+/* NAVBAR */
 #navbar_container {
     text-align: center;
     font-family: 'Lora', serif;
@@ -19,66 +50,26 @@
 #navbar_container li:hover{
     opacity: 50%;
 }
+
 .navbar-default{
     transition:500ms ease;
     background:transparent;
     max-height: 8vh;
     min-height: 8vh;
     /* border-bottom: 1px solid #000; */
-  }
+}
 
-  .navbar-default.scrolled{
+.navbar-default.scrolled{
     background: #121715 ;
     max-height: 5vh;
     min-height: 5vh;
-  }
-
-/* general */
-#container-body{
-    margin: auto;
-    border: 0px dashed rgb(23, 171, 67);
-}
-
-html body {
-    background-color: #FFFCF8 ;  
 }
 
 
-
-
- #homepage_background{
+/* HOMEPAGE */
+#homepage_background{
     margin-left: 0px;
     padding: 0px;
-}
-
-
-#homepage_text{
-    position: absolute;
-    width: 50%;
-    height: 25%;
-    bottom: 12%;
-    left: 25%;
-    background-color: transparent;
-    color: #FFFCF8;;
-    /* border: 1px dashed white; */
-}
-
-#homepage_text p{
-    text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0px;
-    margin-top: 5vh;
-    font-size: x-small;   
-}
-
-#homepage_text h1{
-    font-size: x-large;
-    color: #FFFCF8;
-}
-
-#hompage_text h2{
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 #scroll-down{
@@ -123,95 +114,30 @@ html body {
     box-sizing: border-box;
 }
 
-/* GENERAL CHANGES */
-h1 {
-    text-align: center;
-    font-family: 'Lora', serif;
-    font-size: large;
-    margin-bottom: 1vh;
-    padding-top: 1vh;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'Catamaran', sans-serif;
-    font-size: large;
-}
-
-h3 {
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 0px;
-    font-size: small;
-}
-
-#titelbox {
-    padding-left: 33vw;
-    margin-bottom: 3vh;
-}
-
-h5{
-    text-align: center;
-    font-size: small;
-}
-
-h6{
-    text-align: center;
-    font-size: x-small;
-    font-weight: 400;
-    margin-top: 0px;
-    padding-top: 0px;
-    font-style: italic;
-}
-
-#modal-header{
-    padding: 0px; 
-    margin: 0px;
-}
 
 /* BIO */
 #bio {
-    padding-top: 5vh;
     width: 66vw;
     height: 100vh;
 }
 
 #background_bio {
     width: 100vw;
-    height: 102%;
+    height: 105vh;
     background-color: #121715;
     z-index: -1;
     position: absolute;
     left: 0px;
-    margin-top: -7vh;
+    margin-top: -5vh;
 }
 
-#bio .table-container{
-    display: table;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#bio .left-colum-bio{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: left;
-    position: relative;
-}
 
 #bio h1{
     color: #FFFCF8;
-    font-family: 'Catamaran', serif;
 }
 
 #bio p {
-    font-size: small;
-    word-wrap:break-word;
-    margin-top:2.5vh 0px;
-    padding-left: 1.5vw;
     color: #FFFCF8;
-    font-family: 'Lora', sans-serif;
-    font-weight: 400;
 }
 
 #bio-social-buttons {
@@ -241,9 +167,8 @@ h6{
 }
 
 
+/* PROJECTS */
 
-
-/* CSS on Projects */
 #projects{
     padding-top: 5vh;
 }
@@ -251,36 +176,18 @@ h6{
 #projects .row {
     margin-bottom: 15vh;
     margin-top: 15vh;
-    vertical-align: middle;
 }
 
 #projects p {
-    text-align: left ;
-    font-size: small;
     color: #121715;
-    font-family: 'Lora', sans-serif;
-    font-weight: 400;
-}
-
-#projects h1{
-    color: #121715;
-    margin-top: 0px;
-    font-family: 'Catamaran', sans-serif;
 }
 
 #projects h2{
     color: #121715; 
-    font-family: 'Catamaran', sans-serif;
-    font-weight: 200;
-    font-size: large;
 }
 
 #projects h5{
     color: #121715; 
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    font-size: smaller;
-    text-align: left;
 }
 
 #projects .btn {
@@ -289,16 +196,22 @@ h6{
     background-color: #D95830;
 }
 
-#modal-text p{
-    text-align: start;
-    font-size: small;
-    color: #121715;
+/* MODALS */
+#modal-header{
+    padding: 0px; 
+    margin: 0px;
 }
 
-/* CSS on Contact */
+#modal .row{
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+/* CONTACT */
 #contact {
     padding-top: 0px;
-    width: 66vw;
+    width: 66vw; 
     margin-bottom: 0px;
     background-color: #121715;
 }
@@ -306,15 +219,10 @@ h6{
 #contact h1{
     color: #FFFCF8;
     margin-top: 0%;
-    font-family: 'Catamaran', sans-serif;
-    text-transform: uppercase;
 }
 
 #contact p{
     color: #FFFCF8;
-    font-family: 'Lora', serif;
-    font-size: small;
-    font-style: italic;
     margin-bottom: 0px;
 }
 
@@ -332,8 +240,6 @@ h6{
 .form-control{
     font-size: small;
     background-color: #FFFCF8;
-    font-family: 'Catamaran', serif;
-    font-size: normal;
 }
 
 #contact label{
