@@ -34,6 +34,18 @@ h5{
     font-size: small;
  }
 
+ li{
+    font-family: 'Lora', serif;
+    font-size: small;
+ }
+
+ a {
+    font-family: 'Lora';
+    font-size: normal;
+    font-weight: 200;
+    color:#D95830
+ }
+
 /* NAVBAR */
 #navbar_container {
     text-align: center;
@@ -199,10 +211,16 @@ h5{
 /* MODALS */
 .modal-header{
     margin: 0px;
+    background-color: #FFFCF8;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    border-bottom: 0px;
+    color:#121715
 }
 
 .modal-body{
     background-color: #FFFCF8;
+    color: #121715;
 }
 
 /* CONTACT */
@@ -247,7 +265,7 @@ h5{
 
 /* THE DOTS */
 .content_block {
-     border: 1px dashed rgb(130, 16, 16);
+     border: 0px dashed rgb(130, 16, 16);
 }
 
 .centering{
