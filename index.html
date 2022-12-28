@@ -85,7 +85,7 @@
 			</div>
 
 			<!-- left column -->
-			<div class="col-4  align-items-center container content_block">
+			<div class="col-md-4 col-sm-12 align-items-center container content_block">
 					<div class="row content_block" >
 						<img src="media/IMG-20220422-WA0026.jpg" class="img-fluid" style="border-radius: 3%" >
 					</div>
@@ -104,7 +104,7 @@
 			</div>
 
 			<!-- right column -->
-			<div class="col-8 content_block" style="padding-left: 5%">
+			<div class="col-md-8  col-sm-12 content_block" style="padding-left: 5%">
 				<h1>BIO </h1>  
 				<p>
 					Hi, there! My name is Sita, I'm a curious researcher and documentary filmmaker with a passion for telling honest and empowering stories about local change-makers. 
@@ -141,7 +141,7 @@
 
 			<!-- La Subversiva  -->
 				<div class="row align-items-center content_block" style="margin-top:1vh">
-					<div class="col-6 text-center" style="padding-right: 3%">
+					<div class="col-sm-12 col-md-5 col-lg-6 text-center" style="padding-right: 3%">
 						<h2>La Subversiva</h2>
 						<p> 
 							Undermining big, capitalist beer brands La Subversiva is Barcelona's joint force artisanal brewery. Sticking to their activist and anarchist principles their mission is to turn everybody's favourite social drink into a truly, social drink. 
@@ -151,8 +151,59 @@
 						</button>
 					</div>
 
-					<div class="col-6">
-						<img src="media/poster_subversiva.png" class="d-block"  width="100%" height="100%" alt="...">
+					<div class="col-sm-12 col-md-7 col-lg-6">
+						<div id="carousel_Subversiva" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+							<div class="carousel-inner">
+
+								<div class="carousel-item active">
+									<img src="media/subversiva_poster_16x9.png" 
+									class="d-block w-100" 
+									alt="first slide">
+								</div>
+
+								<div class="carousel-item">
+									<img src="media/subversiva_photo_01.png"
+									class="d-block w-100" 
+									alt="second slide">
+								</div>
+							 
+							  	<div class="carousel-item">
+									<img src="media/subversiva_photo_02.png" 
+									class="d-block w-100" 
+									alt="third slide">
+							 	</div>
+
+								<div class="carousel-item">
+									<img src="media/subversiva_photo_03.png" 
+									class="d-block w-100" 
+									alt="fourth slide">
+								</div>
+
+								<div class="carousel-item">
+									<img src="media/subversiva_photo_04.png"
+									class="d-block w-100" 
+									alt="fifth slide">
+								</div>
+
+								<div class="carousel-item">
+									<img src="media/subversiva_photo_05.png"
+									class="d-block w-100" 
+									alt="sixth slide">
+								</div>
+
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carousel_Subversiva" data-bs-slide="prev">
+							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carousel_Subversiva" data-bs-slide="next">
+							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Next</span>
+							</button>
+						  </div>
+					</div>
+						
+						
 					</div>
 				</div>
 				
@@ -173,7 +224,7 @@
 								<div class="conainer-fluid">
 									<div class="row content_block" style="margin-bottom: 2%; margin-top: 0px; padding-top: 0px;">
 											<div class="ratio ratio-16x9">
-												<iframe src="https://player.vimeo.com/video/784739763?h=3f7d5e5fa7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="La Subversiva"></iframe>
+												<iframe src="https://player.vimeo.com/video/784780409?h=a4bdf8c317&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="La Subversiva"></iframe>
 											</div>
 									</div>
 
@@ -214,20 +265,21 @@
 
 			<!-- Bicibus -->
 				<div class="row align-items-center content_block">
-					<div class="col-6">
+					<div class="col-sm-12 col-md-7 col-lg-6">
 						<!-- image carousel -->
-						<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+						<div id="carousel_Bicibus" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
 							<div class="carousel-inner">
+
 								<div class="carousel-item active">
-									<img src="media/bicibus_photo_02.png" 
+									<img src="media/bicibus_poster_16x9.png" 
 									class="d-block w-100" 
-									alt="second slide">
+									alt="first slide">
 								</div>
 
 								<div class="carousel-item">
-									<img src=""
+									<img src="media/bicibus_photo_02.png"
 									class="d-block w-100" 
-									alt="first slide">
+									alt="second slide">
 								</div>
 							 
 							  <div class="carousel-item">
@@ -235,19 +287,38 @@
 								class="d-block w-100" 
 								alt="third slide">
 							  </div>
+
+							  <div class="carousel-item">
+								<img src="media/bicibus_photo_03.png" 
+								class="d-block w-100" 
+								alt="fourth slide">
+							  </div>
+
+							  <div class="carousel-item">
+								<img src="media/bicibus_photo_04.png" 
+								class="d-block w-100" 
+								alt="fifth slide">
+							  </div>
+
+							  <div class="carousel-item">
+								<img src="media/bicibus_photo_05.png" 
+								class="d-block w-100" 
+								alt="sixth slide">
+							  </div>
+
 							</div>
-							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+							<button class="carousel-control-prev" type="button" data-bs-target="#carousel_Bicibus" data-bs-slide="prev">
 							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 							  <span class="visually-hidden">Previous</span>
 							</button>
-							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+							<button class="carousel-control-next" type="button" data-bs-target="#carousel_Bicibus" data-bs-slide="next">
 							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 							  <span class="visually-hidden">Next</span>
 							</button>
 						  </div>
 					</div>
 
-					<div class="col-6 text-center" style='padding-left: 3%'>
+					<div class="col-sm-12 col-md-5 col-lg-6 text-center" style='padding-left: 3%'>
 						<h2>Bicibús </h2>
 						<p>
 							<i>Bicibús</i> is a social documentary produced by OTOXO Productions. The film follows a group of parents and volunteers in Barcelona's Eixample neighboorhood as they set out to reclaim the streets from heavy traffic. Watch how Barcelona cracks a smile as the joyful bicibús passes by.
@@ -376,7 +447,7 @@
 
 				<!--  Origo -->
 				<div class="row align-items-center content_block">
-					<div class="col-6" style="padding-right: 3%;">
+					<div class="col-sm-12 col-md-5 col-lg-6" style="padding-right: 3%;">
 						<h2>Orígo</h2>
 						<p>
 							This video was created for Origo a local bakery in Barcelona's Gràcia neighboorhood. For it's fourth anniversary the sourdough bakery opened its doors to the communnity and hosted a celebratory party.
@@ -384,7 +455,7 @@
 						<h5> @Clara Carbajo, Katja Kuivanen & Andy Perez </h5>
 					</div>
 
-					<div class="col-6">
+					<div class="col-sm-12 col-md-7 col-lg-6">
 						<div class="ratio ratio-16x9">
 							<iframe src="https://player.vimeo.com/video/784732982?h=3672826d0e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Origo Bakery Anniversary event.mp4"></iframe>
 						</div>
@@ -394,13 +465,13 @@
 
 				<!-- Bicibus Open-call -->
 				<div class="row d-flex align-items-center content_block" style="margin-bottom: 0px !important;">
-					<div class="col-6">
+					<div class="col-sm-12 col-md-7 col-lg-6">
 						<div class="ratio ratio-16x9">
 							<iframe src="https://player.vimeo.com/video/784735237?h=a8f9a437cb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Pimp My Wheels"></iframe>
 						</div>
 					</div>
 
-					<div class="col-6" style="padding-left: 3%">
+					<div class="col-sm-12 col-md-5 col-lg-6" style="padding-left: 3%">
 						<h2>Open-call Bicibús </h2>
 						<p>
 							Collaborating with the large bicibus communnity we made this video to increase awareness of our documentary and to make parents and their kids excited to be involved in the film.
@@ -424,12 +495,12 @@
 					<p style="text-align: center; font-style: italic;"> I would love to get in touch, so please send a message!</p>
 
 					<form class="row g-3" style="margin-bottom: 0px !important; margin-top: 10px;">
-						<div class="col-6" style="margin-top: 0px !important;">
+						<div class="col-md-6 col-sm-12" style="margin-top: 0px !important;">
 							<label for="inputName" class="form-label"><h5>Name:</h5></label>
 							<input type="text" class="form-control form-control-sm" id="inputAddress" placeholder="please enter your name">
 						</div>
 
-						<div class="col-6" style="margin-top: 0px !important;">
+						<div class="col-md-6 col-sm-12" style="margin-top: 0px !important;">
 							<label for="inputEmail" class="form-label"><h5>Email:</h5></label>
 							<input type="text" class="form-control form-control-sm" id="inputEmail" placeholder="please enter your email">
 						</div>
