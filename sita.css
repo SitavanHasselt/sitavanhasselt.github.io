@@ -130,17 +130,8 @@ h5{
 /* BIO */
 #bio {
     width: 66vw;
-    height: 100vh;
-}
-
-#background_bio {
-    width: 100vw;
-    height: 105vh;
     background-color: #121715;
-    z-index: -1;
-    position: absolute;
-    left: 0px;
-    margin-top: -5vh;
+    min-height: 100vh;
 }
 
 
@@ -191,6 +182,9 @@ h5{
 #projects .row {
     margin-bottom: 15vh;
     margin-top: 15vh;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 #projects p {
@@ -268,7 +262,7 @@ h5{
 
 /* THE DOTS */
 .content_block {
-     border: 0px dashed rgb(130, 16, 16);
+     border: 1px dashed rgb(130, 16, 16);
 }
 
 .centering{
