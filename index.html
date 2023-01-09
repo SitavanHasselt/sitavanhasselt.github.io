@@ -502,16 +502,16 @@
 				<h1 style="font-size: normal"> CONTACT</h1> 
 				<p style="text-align: center; font-style: italic;"> I would love to get in touch, so please send a message!</p>
 
-					<form  id="contact-form" class="row g-3" name="contact-form" action="mail.php" action="post"  style="margin-bottom: 0px !important; margin-top: 10px;">
+					<form  id="contact-form" class="row g-3" name="contact-form" method='POST' action="https://formspree.io/f/xlekeaav3" style="margin-bottom: 0px !important; margin-top: 10px;">
 						<!-- name -->
 						<div class="col-md-6 col-sm-12" style="margin-top: 0px !important;">
-							<label for="name" class="form-label"><h5> Your name:</h5></label>
+							<label for="name"  class="form-label"><h5> Your name:</h5></label>
 							<input type="text" id="name" name="name" class="form-control form-control-sm" placeholder="please enter your name" required="required">
 						</div>
 						<!-- email -->
 						<div class="col-md-6 col-sm-12" style="margin-top: 0px !important;">
 							<label for="email" class="form-label"><h5>Email:</h5></label>
-							<input type="email" id="email"name="email" class="form-control form-control-sm" placeholder="please enter your email" required="required">
+							<input type="email" id="email" name="email" class="form-control form-control-sm" placeholder="please enter your email" required="required">
 						</div>
 						<!-- message -->
 						<div class="col-12">
@@ -521,20 +521,20 @@
 					</form>
 
 					<div class="col-12 text-end">
-						<a class="btn btn-primary" onclick="validateForm();">Send</a>
+						<button type="submit" class="btn btn-default"> Send</button>
 					</div>
-					<div class="status"></div>
-		</div>
-	<!-- end CONTACT -->
+				
+			</div>
+		<!-- end CONTACT -->
 
-	<!-- begin FOOTER -->
+		<!-- begin FOOTER -->
 		<footer class="text-center" style="background-color: #121715">
 			
 			<div style="font-size:x-small; color: #FFFCF8; opacity: 50%;">
 				© 2022 by Sita van Hasselt
 			</div>	
 		</footer>
-	<!-- end FOOTER -->
+		<!-- end FOOTER -->
 	</div>
 
 </body>
