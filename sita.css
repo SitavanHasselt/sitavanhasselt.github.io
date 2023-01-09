@@ -46,6 +46,19 @@ h5{
     color:#D95830
  }
 
+.dark_background{
+    background: #121715;
+    margin-left: 0px !important; 
+    padding-left: 0px !important;
+    width: 100vw !important; 
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 5vh;
+    padding-top: 8vh;
+    margin-top: -3vh;
+ }    
+ 
+
 /* NAVBAR */
 #navbar_container {
     text-align: center;
@@ -130,8 +143,8 @@ h5{
 /* BIO */
 #bio {
     width: 66vw;
-    background-color: #121715;
     min-height: 100vh;
+    margin: auto;
 }
 
 
@@ -177,6 +190,7 @@ h5{
 
 #projects{
     padding-top: 5vh;
+    margin: auto;
 }
 
 #projects .row {
