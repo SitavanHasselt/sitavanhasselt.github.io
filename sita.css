@@ -162,8 +162,9 @@ h5{
   font-size: larger;
 }
 
-#bio-social-buttons .fa-twitter {
-  padding-left: 80%;
+
+#bio-social-buttons .fa{
+    color: #C92C00;
 }
 
 #bio-social-buttons .fa-vimeo {
@@ -217,6 +218,8 @@ h5{
     text-transform: uppercase;
 }
 
+
+
 /* MODALS */
 .modal-header{
     margin: 0px;
@@ -255,11 +258,15 @@ h5{
 }
 
 #contact .btn{
-    background-color: #D95830;
+    background-color: #C92C00;
     color: #121715;
     border: 0px; 
+    
 }
 
+#contact .btn:hover{
+    background-color: #C2FFED;
+}
 
 .form-control{
     font-size: small;
