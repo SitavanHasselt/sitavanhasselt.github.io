@@ -157,10 +157,9 @@ h5{
 }
 
 #bio-social-buttons {
-  color: #D95830;
+  color: #C92C00;
   text-align: center;
-  font-size: large;
-  opacity: 100%;
+  font-size: larger;
 }
 
 #bio-social-buttons .fa-twitter {
@@ -176,7 +175,7 @@ h5{
 }
  
 #bio .btn{
-    background-color:  #CE4A1D; /* #4BD7C0; */
+    background-color:  #C92C00; /* #4BD7C0; */
     color: #121715;
     border: 0px;
     font-family: 'Catamaran', sans-serif;
@@ -216,7 +215,6 @@ h5{
 #projects .btn {
     font-family: 'Catamaran', sans-serif;
     text-transform: uppercase;
-    background-color: #D95830;
 }
 
 /* MODALS */
